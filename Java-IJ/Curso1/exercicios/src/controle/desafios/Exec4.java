@@ -16,12 +16,10 @@ public class Exec4 {
 
         boolean primo = false;
 
-        int teste = 12;
-
-        repetidor: while(true) { // testando
+        while(true) { // testando
             System.out.print("Digite um número, vamos descobrir se ele é priminho: ");
             int priminho = entrada.nextInt();
-            if (priminho == -666) break repetidor;
+            if (priminho == -666) break;
             for (int i = 2; i <= priminho; i++) {
                 if (priminho%i == 0 && i!=priminho) {
                     primo = false;

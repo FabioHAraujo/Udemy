@@ -1,6 +1,5 @@
 package classe.desafios;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class DataTeste{
