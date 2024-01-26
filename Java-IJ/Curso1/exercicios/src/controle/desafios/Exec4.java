@@ -37,7 +37,5 @@ public class Exec4 {
 
         System.out.println("Vcê encerrou o programa, até a próxima!");
 
-
-
     }
 }
